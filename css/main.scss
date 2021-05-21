@@ -56,7 +56,7 @@ ul {
   z-index: 9999;
   width: 100vh;
   top: 0;
-  left: -45%;
+  left: -50%;
 
   .sidebar-inner {
     background: linear-gradient(90deg, #111138 0%, #03032B 100%), #19191E;
@@ -1427,17 +1427,7 @@ ul {
   }
 
   .section1-bottom .number::before {
-    position: absolute;
-    content: "";
-    margin: auto;
-    left: 132px;
-    top: 0;
-    bottom: 0;
-    background-image: url(../photo/icon/telephone.svg);
-    width: 40px;
-    height: 40px;
-    background-repeat: no-repeat;
-    background-size: contain;
+    display: none;
   }
 
   .section2-inner {
@@ -1454,6 +1444,7 @@ ul {
     max-width: 437px;
     margin-top: 15px;
     text-align: center;
+    margin-left: 0;
   }
 
   .section2-inner .section2-text1 {
@@ -1494,7 +1485,7 @@ ul {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     overflow-y: hidden;
-    width: 323px;
+    width: 169px;
     overflow: scroll;
     padding-top: 50px;
     height: 250px;
@@ -1607,6 +1598,27 @@ ul {
   .footer-middle {
     width: auto;
   }
+
+  .section1-top {
+    display: block;
+
+    .logotip {
+      display: flex;
+      justify-content: center;
+
+     
+    }
+  }
+
+  .span-block {
+    margin: 20px auto 0 auto;
+  }
+
+  .section4 .section4-inner .section2-inner {
+    margin-top: 40px;
+    padding-top: 0;
+}
+
 
 
 

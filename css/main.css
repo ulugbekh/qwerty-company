@@ -49,7 +49,7 @@ ul {
   z-index: 9999;
   width: 100vh;
   top: 0;
-  left: -45%;
+  left: -50%;
 }
 
 .sidebar .sidebar-inner {
@@ -1359,17 +1359,7 @@ ul {
     margin-top: 15px;
   }
   .section1-bottom .number::before {
-    position: absolute;
-    content: "";
-    margin: auto;
-    left: 132px;
-    top: 0;
-    bottom: 0;
-    background-image: url(../photo/icon/telephone.svg);
-    width: 40px;
-    height: 40px;
-    background-repeat: no-repeat;
-    background-size: contain;
+    display: none;
   }
   .section2-inner {
     display: block;
@@ -1387,6 +1377,7 @@ ul {
     max-width: 437px;
     margin-top: 15px;
     text-align: center;
+    margin-left: 0;
   }
   .section2-inner .section2-text1 {
     font-style: normal;
@@ -1422,7 +1413,7 @@ ul {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     overflow-y: hidden;
-    width: 323px;
+    width: 169px;
     overflow: scroll;
     padding-top: 50px;
     height: 250px;
@@ -1527,6 +1518,24 @@ ul {
   }
   .footer-middle {
     width: auto;
+  }
+  .section1-top {
+    display: block;
+  }
+  .section1-top .logotip {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .span-block {
+    margin: 20px auto 0 auto;
+  }
+  .section4 .section4-inner .section2-inner {
+    margin-top: 40px;
+    padding-top: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
